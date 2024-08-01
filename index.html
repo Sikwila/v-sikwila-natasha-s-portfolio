@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sikwila Tech Solutions Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./font awesome/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section id="home">
+      <nav>
+        <div class="nav-container">
+          <p class="logo">Sikwila tech Solutions</p>
+          <div class="nav-left-bar">
+            <ul>
+              <li><a href="#Contact" class="txt">Contact</a></li>
+            </ul>
+            <div class="menu">
+              <i
+                class="fa fa-bars menu-icon"
+                aria-hidden="true"
+                onclick="toggleMenu()"
+              ></i>
+              <div class="menu-dropdown" id="menu-dropdown">
+                <ul>
+                  <li><a href="#Home" onclick="hideMenu()">Home</a></li>
+                  <li><a href="#About" onclick="hideMenu()">About</a></li>
+                  <li><a href="#Gallery" onclick="hideMenu()">Gallery</a></li>
+                  <li>
+                    <a href="#Exhibitions" onclick="hideMenu()">Exhibitions</a>
+                  </li>
+                  <li><a href="#Artists" onclick="hideMenu()">Artists</a></li>
+                  <li><a href="#Contact" onclick="hideMenu()">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- end of nav -->
+      <div class="intro">
+        <button class="intro-btn1">👋 Hello</button>
+        <h1>
+          Hi I'm Sikwila Natasha, <br />a Web developer <br />and designer
+        </h1>
+        <div class="home-btns">
+          <button class="intro-btn2">👋 Hello</button>
+          <button class="intro-btn2">👋 Hello</button>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
